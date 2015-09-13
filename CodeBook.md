@@ -4,15 +4,15 @@
 ### Abstract: 
 Measurements of electric power consumption in one household with a one-minute sampling rate over a period of almost 4 years. Different electrical quantities and some sub-metering values are available.
 
-Data Set Characteristics: Multivariate, Time-Series
-Attribute Characteristics: Real
-Associated Tasks: Regression, Clustering
-Number of Instances: 2075259
-Number of Attributes: 9
-Missing Values?: Yes
-Area: Physical
-Date Donated: 2012-08-30
-Number of Web Hits: 74071
+- Data Set Characteristics: Multivariate, Time-Series
+- Attribute Characteristics: Real
+- Associated Tasks: Regression, Clustering
+- Number of Instances: 2075259
+- Number of Attributes: 9
+- Missing Values?: Yes
+- Area: Physical
+- Date Donated: 2012-08-30
+- Number of Web Hits: 74071
 
 ### Source:
 Georges Habrail (georges.hebrail@edf.fr), Senior Researcher, EDF R&D, Clamart, France
