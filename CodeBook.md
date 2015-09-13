@@ -1,4 +1,5 @@
-## Individual household electric power consumption Data Set (ORIGINAL DATA)
+## Individual household electric power consumption Data Set
+## (ORIGINAL DATA)
 
 ### Abstract: 
 Measurements of electric power consumption in one household with a one-minute sampling rate over a period of almost 4 years. Different electrical quantities and some sub-metering values are available.
@@ -41,6 +42,7 @@ N/A
 Please refer to the Machine Learning Repository's citation policy (https://archive.ics.uci.edu/ml/citation_policy.html)
 
 ## Peer Assemsnt Project
+## (PROCESED DATA)
 
 ### Variables
 1. sourceData: original data converted to table
