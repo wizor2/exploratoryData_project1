@@ -20,20 +20,23 @@ Alice Barard, TELECOM ParisTech Master of Engineering Internship at EDF R&D, Cla
 
 ### Data Set Information:
 This archive contains 2075259 measurements gathered between December 2006 and November 2010 (47 months).
-Notes:
+<b>Notes:</b>
+<ol>
 <li>(global_active_power*1000/60 - sub_metering_1 - sub_metering_2 - sub_metering_3) represents the active energy consumed every minute (in watt hour) in the household by electrical equipment not measured in sub-meterings 1, 2 and 3.</li>
 <li>The dataset contains some missing values in the measurements (nearly 1,25% of the rows). All calendar timestamps are present in the dataset but for some timestamps, the measurement values are missing: a missing value is represented by the absence of value between two consecutive semi-colon attribute separators. For instance, the dataset shows missing values on April 28, 2007.</li>
-
+</ol>
 ### Attribute Information:
-1.date: Date in format dd/mm/yyyy
-2.time: time in format hh:mm:ss
-3.global_active_power: household global minute-averaged active power (in kilowatt)
-4.global_reactive_power: household global minute-averaged reactive power (in kilowatt)
-5.voltage: minute-averaged voltage (in volt)
-6.global_intensity: household global minute-averaged current intensity (in ampere)
-7.sub_metering_1: energy sub-metering No. 1 (in watt-hour of active energy). It corresponds to the kitchen, containing mainly a dishwasher, an oven and a microwave (hot plates are not electric but gas powered).
-8.sub_metering_2: energy sub-metering No. 2 (in watt-hour of active energy). It corresponds to the laundry room, containing a washing-machine, a tumble-drier, a refrigerator and a light.
-9.sub_metering_3: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.
+<ol>
+<li>date: Date in format dd/mm/yyyy</li>
+<li>time: time in format hh:mm:ss</li>
+<li>global_active_power: household global minute-averaged active power (in kilowatt)</li>
+<li>global_reactive_power: household global minute-averaged reactive power (in kilowatt)</li>
+<li>voltage: minute-averaged voltage (in volt)</li>
+<li>global_intensity: household global minute-averaged current intensity (in ampere)</li>
+<li>sub_metering_1: energy sub-metering No. 1 (in watt-hour of active energy). It corresponds to the kitchen, containing mainly a dishwasher, an oven and a microwave (hot plates are not electric but gas powered).</li>
+<li>sub_metering_2: energy sub-metering No. 2 (in watt-hour of active energy). It corresponds to the laundry room, containing a washing-machine, a tumble-drier, a refrigerator and a light.</li>
+<li>sub_metering_3: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.</li>
+</ol>
 
 ### Relevant Papers:
 N/A
@@ -45,17 +48,22 @@ Please refer to the Machine Learning Repository's citation policy (https://archi
 ## (PROCESED DATA)
 
 ### Variables
-1. sourceData: original data converted to table
-2. dateData: table with data in defined time range (2007-02-01 and 2007-02-02)
+<ol>
+<li>sourceData: original data converted to table</li>
+<li>dateData: table with data in defined time range (2007-02-01 and 2007-02-02)</li>
+</ol>
 
 ### Codes
-1. plot1.R: R code for plot 1
-2. plot2.R: R code for plot 2
-3. plot3.R: R code for plot 3
-4. plot4.R: R code for plot 4
-
+<ol>
+<li>plot1.R: R code for plot 1</li>
+<li>plot2.R: R code for plot 2</li>
+<li>plot3.R: R code for plot 3</li>
+<li>plot4.R: R code for plot 4</li>
+</ol>
 ### Outputs of R codes
-1. plot1.png
-2. plot2.png
-3. plot3.png
-4. plot4.png
+<ol>
+<li>plot1.png</li>
+<li>plot2.png</li>
+<li>plot3.png</li>
+<li>plot4.png</li>
+</ol>
